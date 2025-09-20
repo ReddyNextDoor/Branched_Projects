@@ -1,7 +1,9 @@
 # Server Stats Analyzer - Implementation Output
 
+> **Note**: For project overview and usage, see [README.md](README.md)
+
 ## Overview
-This document provides a comprehensive overview of the implemented tasks for the Server Stats Analyzer project, including code examples and test outputs.
+This document provides a comprehensive technical overview of the implemented tasks for the Server Stats Analyzer project, including detailed code examples, test outputs, and implementation decisions.
 
 ---
 

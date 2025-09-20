@@ -1,53 +1,10 @@
-# Server Stats Analyzer - Comprehensive Guide
+# Server Stats Analyzer - Advanced Configuration Guide
 
-## Overview
+> **Note**: For basic usage and installation, see [README.md](README.md)
 
-The Server Stats Analyzer is a portable shell script designed to provide essential server performance metrics on Linux systems. It offers real-time insights into CPU usage, memory utilization, disk space, and resource-consuming processes without requiring additional dependencies.
+This guide covers advanced configuration, deployment scenarios, and detailed troubleshooting for system administrators and DevOps engineers.
 
-## Features
-
-- **CPU Usage Monitoring**: Real-time CPU utilization with /proc/stat parsing and fallback methods
-- **Memory Statistics**: Comprehensive memory usage including buffer/cache accounting
-- **Disk Usage Analysis**: Root filesystem monitoring with human-readable formatting
-- **Process Monitoring**: Top 5 processes by CPU and memory consumption
-- **Cross-Platform Compatibility**: Works across major Linux distributions
-- **Fallback Mechanisms**: Multiple methods ensure reliability across different systems
-- **Debug Mode**: Detailed troubleshooting information
-- **Human-Readable Output**: Clean, dashboard-style formatting
-
-## System Requirements
-
-### Minimum Requirements
-- Linux operating system
-- Bash shell (version 4.0+)
-- Standard POSIX commands: `ps`, `df`
-- Read access to `/proc` filesystem
-
-### Recommended Components
-- `free` command (for enhanced memory statistics)
-- `top` command (for fallback process monitoring)
-- `bc` command (for precise calculations)
-- `who` command (for user information)
-
-### Tested Distributions
-- Ubuntu 18.04, 20.04, 22.04
-- CentOS 7, 8
-- Debian 9, 10, 11
-- Alpine Linux 3.12+
-- Amazon Linux 2
-
-## Installation
-
-1. **Download the script**:
-   ```bash
-   curl -O https://example.com/server-stats.sh
-   # or
-   wget https://example.com/server-stats.sh
-   ```
-
-2. **Make it executable**:
-   ```bash
-   chmod +x server-stats.sh
+## Advanced Configuration
    ```
 
 3. **Verify installation**:
